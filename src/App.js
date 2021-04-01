@@ -1,7 +1,12 @@
 import React from 'react';
+import IntroDisplay from './display/IntroDisplay';
 
 function App() {
-  return <div>App</div>;
+  return (
+    <>
+      <IntroDisplay />
+    </>
+  );
 }
 
 export default App;
